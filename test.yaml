@@ -1,0 +1,9 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: service-b-test-0
+spec:
+  containers:
+    - name: whatever
+      image: index.docker.io/verhulstm/service-public:latest
+      imagePullPolicy: Always
